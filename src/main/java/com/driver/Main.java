@@ -2,11 +2,11 @@ package com.driver;
 
 public class Main {
 
-    RWOnly obj = new RWOnly();
+    public static void main(String[] args){
+        RWOnly obj = new RWOnly();
 
-    //obj.name = "Rushikesh";
-
-    obj.setName("Rushikesh");
-    obj.getName();
-
+        // obj.name = "Rushikesh";
+        obj.setName("Rushikesh");
+        obj.getName();
+    }
 }
